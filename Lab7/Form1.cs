@@ -27,6 +27,7 @@ namespace Lab7
                     sw.WriteLine(textBox1.Text + " " + textBox2.Text + " " + textBox3.Text);
                     textBox1.Text = textBox2.Text = textBox3.Text = "";
                 }
+                MessageBox.Show("Successfully added new row!", "Congratulations");
             }
             else MessageBox.Show("Please, fill all fields!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
